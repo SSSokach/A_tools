@@ -1,0 +1,63 @@
+[
+    {
+        "dialog": [
+            "HI",
+            "Is there anything that you'd like to talk about?",
+            "I am happy to listen if you have a problem.",
+            "Yeah its about my personal problem can you give me any suggestions",
+            "Well, I'd need to know what your personal problem was first. Can you tell me?",
+            "Im in depression over past 4 months",
+            "I am very sorry to hear that. I have suffered from depression too so I empathise. Can you tell me what is making you feel depressed?"
+        ]
+    },
+    {
+        "dialog": [
+            "i feel depresed",
+            "Why do you feel depressed?",
+            "breakup with my partner",
+            "Breakups can be really tough. How long were you with your partner?"
+        ]
+    },
+    {
+        "dialog": [
+            "yes it can i get loud too much and my mom always yelled i hated it and told myself I hated it growing up",
+            "I have a co-worker who has kids with special needs, and she has this great phrase for working with her kids",
+            "what is it",
+            "i must know lol",
+            "any and all advice taken here",
+            "She says, \"is this a small feeling or a big feeling?\" and then, \"Are you having a big reaction, or a small reaction?\", and it really helps her kids self-soothe",
+            "interesting is she implying having a big reaction to a small feeling is unnessacary?",
+            "She's also taught them that if they're being mean to mom (taking something else out on her), they're allowed to say, \"I'm sorry, I'm not acting or feeling my best right now, and I'm going to take a minute to myself.\" Do you think your kids might relate to that?",
+            "thats wise i must sit with that for a bit and at least talk about their feelings more i bet if i help my kids to feel more validated they will feel heard better and maybe not yell",
+            "Yea, exactly! Trying to teach her kids that it makes more sense for their reactions to be more proportionate to their feelings and to the importance of a situation. It's really helped her address tantrums and help her kids be more self-aware"
+        ]
+    },
+    {
+        "dialog": [
+            "Marry chrisms",
+            "Of course. Is there any other way I can help you? Merry Christmas to you as well, my friend!",
+            "And advance happy new year.",
+            "And to you!",
+            "Thank you.",
+            "Is there any other way I can help you today? I am here for you.",
+            "No friend i already have great today. I am feeling great right now.",
+            "I am so happy to hear that. I hope you have a great day every day!",
+            "Thank you.",
+            "Would you like me to end the chat now, my friend?"
+        ]
+    },
+    {
+        "dialog": [
+            "There is a lot of concern about, are your work following guidelines?",
+            "I am very anxious cause I need to run to the bathroom and breath",
+            "Work guidelines we are following. I want the anxiety to stop.",
+            "I am also in this situation at work, I have used breathing methods to calm myself down which worked, have you tried anything like this?",
+            "It is simple, put on mask and work, when you get out of the office then do what you want.",
+            "I am anxious now and using a breathing exercise as I type",
+            "So you are frustrated because others are not using masks, have I got that right?",
+            "It's not that they are not using masks, it is their position and reasons not to wear the masks and that puts others in a scary and anxious position at their workplace where in these times, work is scare.",
+            "What is your point of view on masks?",
+            "Just from talking to you, I can feel how anxious you are and this is made worse by your colleagues, perhaps they are struggling in different ways with this."
+        ]
+    }
+]
