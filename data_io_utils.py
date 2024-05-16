@@ -1,3 +1,7 @@
+import os
+import sys
+from glob import glob
+from tqdm import tqdm
 import json
 
 
@@ -62,17 +66,21 @@ def load_csv(path, use_dict=True):
     return data
 
 
-def write_csv(path, data, fieldnames, use_dict=True):
+def write_csv(path, data, fieldnames=None, use_dict=True):
     """
     fieldnames=['id','name','age']
     """
     with open(path, "w") as csv_file:
         if use_dict:
+            if fieldnames == None:
+                fieldnames = list(data[0].keys())
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
             writer.writeheader()  # 将字段写入csv格式文件首行
             for line in data:
                 writer.writerow(line)
         else:
+            if fieldnames == None:
+                assert False
             writer = csv.writer(csv_file)
             writer.writerow(fieldnames)
             for line in data:
