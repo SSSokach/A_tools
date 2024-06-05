@@ -5,6 +5,17 @@ from tqdm import tqdm
 import json
 
 
+def load_file(path):
+    with open(path, "r", encoding="utf-8") as f:
+        data = f.readlines()
+    return "".join(data)
+
+
+def write_file(path, data):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(data)
+
+
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
