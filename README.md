@@ -2,17 +2,21 @@
 
 ### python
 ``` shell
-#  fish shell
-set PYTHONPATH /home/shilongwang/workplace/A_tools $PYTHONPATH 
+# bash
+export PATH=$PATH:/Path/to/A_tools
+# fish shell
+set PYTHONPATH /Path/to/A_tools $PYTHONPATH 
 ```
 
 ### vscode
+
+Add to User settings.json
+
 ``` json
-// User settings.json
 "python.autoComplete.extraPaths": [
-    "/home/shilongwang/workplace/A_tools"
+    "/Path/to/A_tools"
 ],
 "python.analysis.extraPaths": [
-    "/home/shilongwang/workplace/A_tools"
+    "/Path/to/A_tools"
 ],
 ```
